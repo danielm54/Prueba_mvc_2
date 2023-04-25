@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    border: 1px solid #dddddd;
+}
+
+
+div {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+  
+
+table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+}
+    
+td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+}
+    
+tr:nth-child(even) {
+      background-color: #dddddd;
+}
